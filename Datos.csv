@@ -1,0 +1,140 @@
+﻿Record_ID,Study_ID,Reference,Continent,Ecosystem,Latitude,Longitude,TMS_THg,TMF_THg,Bioregion,Region,Country,DOI,TMS_MeHg,TMF_MeHg,Data_status
+REC-001,Mercury biomagnification and trophic structure patterns in,Andréa P. Viana,South America,Estuary,-8.66,-34.5,0.109,2.34,Tropical,,,,,,Updated dataset
+REC-002,"Biomagnification of mercury in fish from Thruston Bay, Napoleon Gulf, Lake Victoria (East Africa)",Campbell,Africa,Lake,-0.270056,34.575904,0.28,8.95,Tropical,,,,,,Updated dataset
+REC-003,Mercury biomagnification and trophic structure patterns in,Andréa P. Viana,South America,Coast,-8.66,-34.5,0.278,8.8,Tropical,,,,,,Updated dataset
+REC-004,Mercury biomagnification and trophic structure patterns in,Andréa P. Viana,South America,Coast,-8.66,-34.5,0.105,2.28,Tropical,,,,,,Updated dataset
+REC-005,Mercury biomagnification and trophic structure patterns in,Andréa P. Viana,South America,Estuary,-8.66,-34.5,0.216,5.42,Tropical,,,,,,Updated dataset
+REC-006,Mercury biomagnification and trophic structure patterns in,Andréa P. Viana,South America,Coast,-8.66,-34.5,0.146,3.13,Tropical,,,,,,Updated dataset
+REC-007,Bioaccumulation and biomagnification of mercury in African lakes: The importance of trophic status,Amanda E. Poste,Africa,Lake,-1.0,29.0,0.22,5.597576014951102,Tropical,,,,,,Updated dataset
+REC-008,Bioaccumulation and biomagnification of mercury in African lakes: The importance of trophic status,Amanda E. Poste,Africa,Lake,-1.0,29.0,0.15,3.235936569296284,Tropical,,,,,,Updated dataset
+REC-009,"Mercury and other contaminants in fish from Lake Chad, Africa",Kidd K,Africa,Lake,-6.95764,31.2733,0.21,5.17,Tropical,,,,,,Updated dataset
+REC-010,Bioaccumulation and biomagnification of mercury in African lakes: The importance of trophic status,Amanda E. Poste,Africa,Lake,-1.0,34.0,0.08,1.87,Tropical,,,,,,Updated dataset
+REC-011,"From Past Use to Present Effects: Total Mercury in Crustaceans and Fish in the Inner Estuary of Paraíba do Sul River, Southeast Brazil",Ana Madeira,South America,Estuary,-21.58,-41.05,0.167,3.69,SubTropical,,,,,,Updated dataset
+REC-012,Mercury bioaccumulation and isotopic relation between Trichiurus lepturus (Teleostei) and its preferred prey in coastal waters of southeastern Brazil,VANESSA T. BITTAR,South America,Coast,-21.58,-22.41,0.58,93.75,SubTropical,,,,,,Updated dataset
+REC-013,"Distribution and Food-web Transfer of Mercury in Napoleon and Winam Gulfs, Lake Victoria, East Africa",Campbell,Africa,Lake,-0.270056,34.575904,0.163,3.12,Tropical,,,,,,Updated dataset
+REC-014,"Distribution and Food-web Transfer of Mercury in Napoleon and Winam Gulfs, Lake Victoria, East Africa",Campbell,Africa,Lake,-0.270056,34.575904,0.165,3.17,Tropical,,,,,,Updated dataset
+REC-015,Mercury transfer in coastal and oceanic food webs from the Southwest,N.E. Fioramonti,South America,Ocean,-54.25,-60.3,0.019,1.16,Subantartico,,,,,,Updated dataset
+REC-016,Bioaccumulation and biomagnification of mercury in African lakes: The importance of trophic status,Amanda E. Poste,Africa,Lake,-1.0,29.0,0.09,2.02,Tropical,,,,,,Updated dataset
+REC-017,Mercury biomagnification and trophic structure patterns in,Andréa P. Viana,South America,Coast,-8.66,-34.5,0.17,3.8,Tropical,,,,,,Updated dataset
+REC-018,Differential mercury transfer in the aquatic food web of a double basined lake,Marina Arcagni,South America,Lake,-41.0,-71.56,-0.08,1.87,De Montaña,,,,,,Updated dataset
+REC-019,Mercury concentratios and stable isotope ratios,Pavanee Annasawmy,Africa,Ocean,-19.0,39.0,0.04,1.36,,,,,,,Updated dataset
+REC-020,Mercury biomagnification and trophic structure patterns in,Andréa P. Viana,South America,Estuary,-8.66,-34.5,0.182,4.18,Tropical,,,,,,Updated dataset
+REC-021,Food web structure and mercury transfer in two contrasting Ugandan highland crater lakes,Campbell,Africa,Lake,-0.01,30.236,0.13,2.76,Tropical,,,,,,Updated dataset
+REC-022,Food web structure and mercury transfer in two contrasting Ugandan highland crater lakes,Campbell,Africa,Lake,-0.01,30.236,0.14,2.99,Tropical,,,,,,Updated dataset
+REC-023,Understanding trophic transference role in mercury biomagnification and,Lucas Rodrigues,South America,Coast,-23.33,-44.75,0.12,2.55,SubTropical,,,,,,Updated dataset
+REC-024,Influence of life history variation and habitat on mercury bioaccumulation,Edward C.V. Butler,Oceania,River,-12.287,131.743,0.42,26.49,Tropical,,,,,,Updated dataset
+REC-025,Bioaccumulation and biomagnification of mercury in African lakes: The importance of trophic status,Amanda E. Poste,Africa,Lake,-1.0,29.0,0.13,2.76,Tropical,,,,,,Updated dataset
+REC-026,"Trophic Structure and Mercury Biomagnification in Tropical Fish Assemblages, Iténez River, Bolivia",Pouilly,South America,River,-12.6133333,-63.4363,0.43,28.97,Tropical,,,,,,Updated dataset
+REC-027,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,-5.941,-67.766,0.296,10.1,Tropical,,,,,,Updated dataset
+REC-028,Mercury concentratios and stable isotope ratios,Pavanee Annasawmy,Africa,Ocean,-26.0,54.0,0.0058,1.57,,,,,,,Updated dataset
+REC-029,Trophic structure and biomagnification of mercury in an assemblage of deepwater,H. Pethybridge,Oceania,Coast,-44.0,147.0,0.37,18.11,Templado,,,,,,Updated dataset
+REC-030,Large scale surveys suggest limited mercury availability in tropical north Queensland (Australia),TimothyD.Jardine,Oceania,River,-16.45,145.02,0.24,6.54,Tropical,,,,,,Updated dataset
+REC-031,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,-17.43,144.95,0.192,4.5,Tropical,,,,,,Updated dataset
+REC-032,Large scale surveys suggest limited mercury availability in tropical north Queensland (Australia),TimothyD.Jardine,Oceania,River,-17.43,144.95,-0.16,0.28,Tropical,,,,,,Updated dataset
+REC-033,Large scale surveys suggest limited mercury availability in tropical north Queensland (Australia),TimothyD.Jardine,Oceania,River,-16.1,144.78,-0.18,0.24,Tropical,,,,,,Updated dataset
+REC-034,From water to edible fish. Transfer of metals and metalloids in the SanRoque,Magdalena Monferran,South America,Lake,,144.82,0.3585,16.55,Mediterraneo,,,,,,Updated dataset
+REC-035,Mercury transfer in coastal and oceanic food webs from the Southwest,N.E. Fioramonti,South America,Coast,,143.04,0.01,1.08,Subantartico,,,,,,Updated dataset
+REC-036,"Trophic Structure and Mercury Biomagnification in Tropical Fish Assemblages, Iténez River, Bolivia",Pouilly,South America,River,,144.42,0.34,14.32,Tropical,,,,,,Updated dataset
+REC-037,Understanding trophic transference role in mercury biomagnification and,Lucas Rodrigues,South America,Coast,,143.03,0.12,2.55,SubTropical,,,,,,Updated dataset
+REC-038,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,,142.38,0.308,11.1,Tropical,,,,,,Updated dataset
+REC-039,Bioaccumulation and biomagnification of mercury in African lakes: The importance of trophic status,Amanda E. Poste,Africa,Lake,,143.68,0.2,4.78,Tropical,,,,,,Updated dataset
+REC-040,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,,141.75,0.403,23.5,Tropical,,,,,,Updated dataset
+REC-041,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,,145.3,0.282,8.95,Tropical,,,,,,Updated dataset
+REC-042,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,,143.22,0.267,8.1,Tropical,,,,,,Updated dataset
+REC-043,Mercury biomagnification in an Antarctic food web of the,Ricardo S. Matias,Antarctic,Ocean,,142.83,0.228,5.94,Polar,,,,,,Updated dataset
+REC-044,Mercury biomagnification in an ichthyic food chain of an amazo,Lucas Silva Azevedo,South America,Lake,-7.4,-63.1,0.27,8.28,Tropical,,,,,,Updated dataset
+REC-045,Global versus local causes and health implications of high mercury concentrations in sharks from the east coast of South Africa,Melissa A. McKinney,Africa,Coast,-25.00167,35.331146,0.29,9.68,Tropical,,,,,,Updated dataset
+REC-046,Differing foraging strategies influence mercury (Hg) exposure in an Antarctic penguin community,MJ Polito,Antarctic,Coast,-62.01,-58.45,0.044,1.41,Polar,,,,,,Updated dataset
+REC-047,Mercury biomagnification in three geothermally-influenced lakes,Piet Verburg,Oceania,Lake,-38.069,176.265,0.132,2.76,Templado,,,,,,Updated dataset
+REC-048,Bioaccumulation and biomagnification of mercury in African lakes: The importance of trophic status,Amanda E. Poste,Africa,Lake,-1.0,34.0,0.22,5.59,Tropical,,,,,,Updated dataset
+REC-049,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,-5.5923,-67.561,0.24,6.5,Tropical,,,,,,Updated dataset
+REC-050,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,-5.8269,-67.799,0.291,9.8,Tropical,,,,,,Updated dataset
+REC-051,Mercury biomagnification in an ichthyic food chain of an amazo,Lucas Silva Azevedo,South America,Lake,-7.4,-63.1,0.29,9.68,Tropical,,,,,,Updated dataset
+REC-052,Bioaccumulation and biomagnification of mercury in African lakes: The importance of trophic status,Amanda E. Poste,Africa,Lake,-1.0,34.0,0.08,1.87,Tropical,,,,,,Updated dataset
+REC-053,Mercury biomagnification in a Southern Ocean food web,Jos_x0001_e Seco,Antarctic,Ocean,-54.283,-36.5,0.2782,8.82,Subpolar,,,,,,Updated dataset
+REC-054,Mercury biomagnification in an ichthyic food chain of an amazo,Lucas Silva Azevedo,South America,Lake,-7.4,-63.1,0.23,6.05,Tropical,,,,,,Updated dataset
+REC-055,Influence of trophic position and foraging range on mercury levels within a seabird community,"Anderson, O. R.",Antarctic,Ocean,-54.0,-38.0,0.27,8.95,Polar,,,,,,Updated dataset
+REC-056,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,-5.5936,-67.764,0.366,17.6,Tropical,,,,,,Updated dataset
+REC-057,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,-6.0055,-67.876,0.226,5.9,Tropical,,,,,,Updated dataset
+REC-058,Mercury and nitrogen isotope in a marine species from a tropical coastal food web,Di Beneditto,South America,Coast,-21.61,-40.89,0.246,6.86,Tropical,,,,,,Updated dataset
+REC-059,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,-5.6867,-67.769,0.235,6.29,Tropical,,,,,,Updated dataset
+REC-060,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,-5.9052,-67.8653,0.28,8.95,Tropical,,,,,,Updated dataset
+REC-061,Large scale surveys suggest limited mercury availability in tropical north Queensland (Australia),TimothyD.Jardine,Oceania,River,-15.48,141.79,0.37,18.11,Tropical,,,,,,Updated dataset
+REC-062,"Evaluating total mercury and methylmercury biomagnification using stable isotopes of carbon and nitrogen in fish from the Madeira River basin, Brazilian Amazon",Marilia Higino,South America,Lake,-7.06,-64.11,0.235,6.29,Tropical,,,,,,Updated dataset
+REC-063,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,-6.0592,-67.878,0.256,7.4,Tropical,,,,,,Updated dataset
+REC-064,Mercury biomagnification in an ichthyic food chain of an amazo,Lucas Silva Azevedo,South America,Lake,-7.4,-63.1,0.28,8.95,Tropical,,,,,,Updated dataset
+REC-065,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,-5.9846,-67.8033,0.246,6.9,Tropical,,,,,,Updated dataset
+REC-066,Trophic relationships and mercury biomagnification in Brazilian tropical coastal,Tatiana Lemos,South America,Coast,-23.02304,-44.478286,0.07,1.72,SubTropical,,,,,,Updated dataset
+REC-067,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,-5.5276,-67.634,0.199,4.7,Tropical,,,,,,Updated dataset
+REC-068,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,-6.0592,-67.878,0.176,4.0,Tropical,,,,,,Updated dataset
+REC-069,Large scale surveys suggest limited mercury availability in tropical north Queensland (Australia),TimothyD.Jardine,Oceania,River,-16.72,144.82,-0.01,0.92,Tropical,,,,,,Updated dataset
+REC-070,"Evaluating total mercury and methylmercury biomagnification using stable isotopes of carbon and nitrogen in fish from the Madeira River basin, Brazilian Amazon",Marilia Higino,South America,River,-7.06,-64.11,0.218,5.51,Tropical,,,,,,Updated dataset
+REC-071,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,-5.9846,-67.8033,0.178,4.0,Tropical,,,,,,Updated dataset
+REC-072,Trophic relationships and mercury biomagnification in Brazilian tropical coastal,Tatiana Lemos,South America,Coast,-23.02304,-44.478286,0.07,1.72,SubTropical,,,,,,Updated dataset
+REC-073,Large scale surveys suggest limited mercury availability in tropical north Queensland (Australia),TimothyD.Jardine,Oceania,Estuary,-16.34,143.04,0.14,2.99,Tropical,,,,,,Updated dataset
+REC-074,Mercury and selenium biomagnification in a Bazilian,Helena A. Kehrig,South America,Coast,-20.0,-38.0,0.21,5.17,SubTropical,,,,,,Updated dataset
+REC-075,Mercury biomagnification in a Southern Ocean food web,Jos_x0001_e Seco,Antarctic,Ocean,-54.283,-36.5,0.2028,4.89,Subpolar,,,,,,Updated dataset
+REC-076,Mercury concentrations in the food web of Lake Malawi,Kidd,Africa,Lake,-13.91,34.62,0.2,4.78,Tropical,,,,,,Updated dataset
+REC-077,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,-5.8769,-67.829,0.293,9.9,Tropical,,,,,,Updated dataset
+REC-078,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,-5.6867,-67.769,0.172,3.8,Tropical,,,,,,Updated dataset
+REC-079,Trophic relationships and mercury biomagnification in Brazilian tropical coastal,Tatiana Lemos,South America,Coast,-22.838505,-43.156618,0.19,4.42,SubTropical,,,,,,Updated dataset
+REC-080,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,-5.8269,-67.799,0.128,2.7,Tropical,,,,,,Updated dataset
+REC-081,"Bioaccumulation and trophic transfer of metals, As and Se through a",Julieta Griboffa,South America,Lake,-31.725,-64.53,0.18,4.09,Mediterraneo,,,,,,Updated dataset
+REC-082,Trophic relationships and mercury biomagnification in Brazilian tropical coastal,Tatiana Lemos,South America,Coast,-22.838505,-43.156618,0.18,4.09,SubTropical,,,,,,Updated dataset
+REC-083,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,-5.5923,-67.561,0.221,5.6,Tropical,,,,,,Updated dataset
+REC-084,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,-5.941,-67.766,0.216,5.4,Tropical,,,,,,Updated dataset
+REC-085,"Evaluating total mercury and methylmercury biomagnification using stable isotopes of carbon and nitrogen in fish from the Madeira River basin, Brazilian Amazon",Marilia Higino,South America,Lake,-7.06,-64.11,0.174,3.9,Tropical,,,,,,Updated dataset
+REC-086,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,-5.9052,-67.8653,0.222,5.7,Tropical,,,,,,Updated dataset
+REC-087,Flood-pulse and trophic position modulate mercury concentrations in fishes from an Amazon floodplain lake,Thais de Castro Paiva,South America,Lake,-3.172,-59.89,0.06,1.59,Tropical,,,,,,Updated dataset
+REC-088,The cost of gold: Mercury contamination,Carmen G. Montaña1,South America,River,-6.12,-60.08,0.16,3.49,Tropical,,,,,,Updated dataset
+REC-089,Mercury biomagnification in three geothermally-influenced lakes,Piet Verburg,Oceania,Lake,-38.069,176.265,0.145,3.11,Templado,,,,,,Updated dataset
+REC-090,Large scale surveys suggest limited mercury availability in tropical north Queensland (Australia),TimothyD.Jardine,Oceania,River,-17.82,144.42,0.22,5.59,Tropical,,,,,,Updated dataset
+REC-091,"Evaluating total mercury and methylmercury biomagnification using stable isotopes of carbon and nitrogen in fish from the Madeira River basin, Brazilian Amazon",Marilia Higino,South America,River,-7.06,-64.11,0.138,2.94,Tropical,,,,,,Updated dataset
+REC-092,"MercurybiomagnificationinthefoodwebofLakeTanganyika (Tanzania,EastAfrica)",L.Campbell,Africa,Lake,-4.9232333,35.18333,0.13,2.76,Tropical,,,,,,Updated dataset
+REC-093,Species- and habitat-specific bioaccumulation of total mercury and,Marina Arcagni,South America,Lake,-41.05,-71.41,-0.06,0.62,De Montaña,,,,,,Updated dataset
+REC-094,High rates of mercury biomagnification in fish from Amazonian,Kelsey Nyholt,South America,Lake,-5.1469,-67.225,0.189,4.4,Tropical,,,,,,Updated dataset
+REC-095,Mercury biomagnification in three geothermally-influenced lakes,Piet Verburg,Oceania,Lake,-38.069,176.265,0.12,2.55,Templado,,,,,,Updated dataset
+REC-096,Flood-pulse and trophic position modulate mercury concentrations in fishes from an Amazon floodplain lake,Thais de Castro Paiva,South America,Lake,-3.172,-59.89,0.11,2.36,Tropical,,,,,,Updated dataset
+REC-097,"Evaluating total mercury and methylmercury biomagnification using stable isotopes of carbon and nitrogen in fish from the Madeira River basin, Brazilian Amazon",Marilia Higino,South America,River,-7.06,-64.11,0.0927,2.06,Tropical,,,,,,Updated dataset
+REC-098,"Transfer of mercury and methylmercury along macroinvertebrate food chains in a floodplain lake of the Beni River, Bolivian Amazonia",Molina ,South America,River,-14.26,-67.48,0.08,1.202264434617413,Tropical,,,,,,Updated dataset
+REC-099,Application of stable isotope mixing models for defining trophic biomagnification pathways of mercury and selenium,H. J. Jones,Oceania,Coast,-42.8955,147.366,0.132,2.8,Templado,,,,,,Updated dataset
+REC-100,Trophic relationships and mercury biomagnification in Brazilian tropical coastal,Tatiana Lemos,South America,Coast,-23.024827,-43.709343,0.21,5.17,SubTropical,,,,,,Updated dataset
+REC-101,Trophic relationships and mercury biomagnification in Brazilian tropical coastal,Tatiana Lemos,South America,Coast,-23.024827,-43.709343,0.22,5.59,SubTropical,,,,,,Updated dataset
+REC-102,Flood-pulse and trophic position modulate mercury concentrations in fishes from an Amazon floodplain lake,Thais de Castro Paiva,South America,Lake,-3.172,-59.89,0.16,3.49,Tropical,,,,,,Updated dataset
+REC-103,Application of stable isotope mixing models for defining trophic biomagnification pathways of mercury and selenium,H. J. Jones,Oceania,Coast,-42.8955,147.366,0.113,2.42,Templado,,,,,,Updated dataset
+REC-104,Flood-pulse and trophic position modulate mercury concentrations in fishes from an Amazon floodplain lake,Thais de Castro Paiva,South America,Lake,-3.1666667,-59.883,0.03,1.26,Tropical,,,,,,Updated dataset
+REC-105,"Mercury levels in humpback whales, and other Southern Ocean",Susan Bengtson,Antarctic,Ocean,-67.6,-62.874,0.13,2.76,Polar,,,,,,Updated dataset
+REC-106,Mercury and selenium in the food web of Lake Nahuel Huapi,Marina Arcagni,South America,Lake,-41.05,-71.41,-0.006,0.95,De Montaña,,,,,,Updated dataset
+REC-107,TROPHIC STRUCTURE AND BIOACCUMULATION OF MERCURY,Da Silva,South America,Lake,-3.9780556,-55.589,0.207,5.05,,,,,,,Updated dataset
+REC-108,"Mercury, selenium and stable isotopes in four small cetaceans from",Gilberto Baptista,South America,Coast,-23.0,-41.0,0.195,4.62,Tropical,,,,,,Updated dataset
+REC-109,Seasonal variations on trace element bioaccumulation and trophic,Julieta,South America,Lake,-31.725,-64.23,0.18,4.09,Semiarido,,,,,,Updated dataset
+REC-110,Mercury transfer in coastal and oceanic food webs from the Southwest,N.E. Fioramonti,South America,Coast,-53.53,-63.17,-0.039,0.7343,Subantartico,,,,,,Updated dataset
+REC-111,TROPHIC STRUCTURE AND BIOACCUMULATION OF MERCURY,Da Silva,South America,Lake,-4.035,-55.6061,0.105,2.27,Tropical,,,,,,Updated dataset
+REC-112,TROPHIC STRUCTURE AND BIOACCUMULATION OF MERCURY,Da Silva,South America,Lake,-4.035,-55.6061,0.22,5.05,Tropical,,,,,,Updated dataset
+REC-113,"Trophic Structure and Mercury Biomagnification in Tropical Fish Assemblages, Iténez River, Bolivia",Pouilly,South America,River,-12.6133333,-63.4363,0.22,5.59,Tropical,,,,,,Updated dataset
+REC-114,Mercury concentratios and stable isotope ratios,Pavanee Annasawmy,Africa,Ocean,-29.0,54.0,0.05,1.5,Tropical,,,,,,Updated dataset
+REC-115,Mercury contamination in polar fish: Bioaccumulation and trophic transfer,Kacper Jurczyk,Antarctic,Ocean,-62.12,58.25,0.218,5.51,Polar,,,,,,Updated dataset
+REC-116,Mercury contamination of sympatric seabirds and associated health risks in,William,Antarctic,Ocean,-62.15,58.4,0.12,2.55,Polar,,,,,,Updated dataset
+REC-117,Mercury bioaccumulation and biomagnification in mesopelagic biota,Bowen Zhang,Oceania,Ocean,-40.0,153.0,0.005,1.04,Templado,,,,,,Updated dataset
+REC-118,Trophic structure and biomagnification of mercury in an assemblage of deepwater,H. Pethybridge,Oceania,Coast,-44.0,147.0,0.33,13.24,Templado,,,,,,Updated dataset
+REC-119,Mercury biomagnification in the food chain of  a piscivorous turtle species,Fabio,South America,River,-0.57,-63.39,0.1301,2.76,Tropical,,,,,,Updated dataset
+REC-120,Mercury biomagnification in an ichthyic food chain of an amazo,Lucas Silva Azevedo,South America,Lake,-7.4,-63.1,0.26,7.65,Tropical,,,,,,Updated dataset
+REC-121,Mercury biomagnification and trophic structure patterns in,Andréa P. Viana,South America,Estuary,-8.66,-34.5,0.121,2.57,Tropical,,,,,,Updated dataset
+REC-122,Mercury biomagnification and the trophic structure of the ichthyofauna,Claudio EduardoAzevedo-Silva,South America,Lake,-7.34,-63.08,0.232,6.13,Tropical,,,,,,Updated dataset
+REC-123,Differential mercury transfer in the aquatic food web of a double basined lake,Marina Arcagni,South America,Lake,-41.0,-71.56,-0.04,1.36,De Montaña,,,,,,Updated dataset
+REC-124,Mercury and selenium in the food web of Lake Nahuel Huapi,Marina Arcagni,South America,Lake,-41.05,-71.41,-0.145,0.321,De Montaña,,,,,,Updated dataset
+REC-125,Large scale surveys suggest limited mercury availability in tropical north Queensland (Australia),TimothyD.Jardine,Oceania,Estuary,-16.29,143.03,0.21,5.17,Tropical,,,,,,Updated dataset
+REC-126,Large scale surveys suggest limited mercury availability in tropical north Queensland (Australia),TimothyD.Jardine,Oceania,River,-15.95,142.38,0.05,1.47,Tropical,,,,,,Updated dataset
+REC-127,Large scale surveys suggest limited mercury availability in tropical north Queensland (Australia),TimothyD.Jardine,Oceania,River,-16.54,143.68,-0.08,0.53,Tropical,,,,,,Updated dataset
+REC-128,Large scale surveys suggest limited mercury availability in tropical north Queensland (Australia),TimothyD.Jardine,Oceania,River,-15.48,141.75,0.36,16.74,Tropical,,,,,,Updated dataset
+REC-129,Large scale surveys suggest limited mercury availability in tropical north Queensland (Australia),TimothyD.Jardine,Oceania,River,-17.17,145.3,0.02,1.16,Tropical,,,,,,Updated dataset
+REC-130,Large scale surveys suggest limited mercury availability in tropical north Queensland (Australia),TimothyD.Jardine,Oceania,Estuary,-16.46,143.22,-0.01,0.92,Tropical,,,,,,Updated dataset
+REC-131,Large scale surveys suggest limited mercury availability in tropical north Queensland (Australia),TimothyD.Jardine,Oceania,Estuary,-16.17,142.83,0.02,1.16,Tropical,,,,,,Updated dataset
+REC-132,Trace Elements and Carbon and Nitrogen Stable Isotopes in Organisms from a Tropical Coastal Lagoon,Pereira,South America,Estuary,-20.0,45.0,-0.126,0.37,Tropicañ,,,,,,Updated dataset
+REC-133,Application of stable isotope mixing models for defining trophic biomagnification pathways of mercury and selenium,H. J. Jones,Oceania,Estuary,-43.1,147.0,0.087,1.98,Templado,,,,,,Updated dataset
+REC-134,Spatial analysis of mercury and stable isotopes in the vulnerable Dusky,Condini,South America,Coast,-22.0,41.0,-0.033,0.79,,,,,,,Updated dataset
+REC-135,Spatial analysis of mercury and stable isotopes in the vulnerable Dusky,Condini,South America,Coast,-24.0,46.0,0.037,1.33,,,,,,,Updated dataset
+REC-136,Spatial analysis of mercury and stable isotopes in the vulnerable Dusky,Condini,South America,Coast,-27.0,48.0,0.033,1.29,,,,,,,Updated dataset
+REC-137,Spatial analysis of mercury and stable isotopes in the vulnerable Dusky,Condini,South America,Coast,-32.0,52.0,0.052,1.5,,,,,,,Updated dataset
+REC-138,,,,,,,,,,,,,,,Updated dataset
+REC-139,"Bioaccumulation and trophic transfer of total mercury in the subtropical Olifants River Basin, South Africa",,,,,,,,,,,,,,Updated dataset
