@@ -1,4 +1,4 @@
-# Mercury Trophic Magnification Database — Shiny prototype
+# Mercury Trophic Magnification World Base
 # Built-in records are synthetic demonstration data, NOT scientific observations.
 
 pkgs <- c("shiny", "bslib", "DT", "leaflet", "dplyr", "readr", "tibble", "htmltools")
@@ -32,7 +32,8 @@ load_database <- function(path = "Datos.csv") {
   }
 
   text_cols <- c("Record_ID", "Study_ID", "Reference", "DOI", "Country",
-                 "Continent", "Ecosystem", "Data_status")
+                 "Continent", "Ecosystem", "FW", "Region", "Bioregion",
+                 "Data_status")
   for (nm in text_cols) {
     if (!nm %in% names(x)) x[[nm]] <- if (nm == "Data_status") {
       "Validated dataset"
@@ -105,7 +106,7 @@ standardize <- function(x) {
 }
 
 ui <- page_sidebar(
-  title="Mercury Trophic Magnification Database",
+  title="Mercury Trophic Magnification World Base",
   theme=bs_theme(version=5, bootswatch="flatly", primary="#176B87"),
   tags$head(tags$style(HTML(".metric-card h2 { font-size: 1.8rem; margin: 0; } .metric-card h6 { margin-bottom: .5rem; }"))),
   sidebar=sidebar(width=310,
@@ -117,10 +118,12 @@ ui <- page_sidebar(
     selectInput("mercury","Mercury form",c("THg","MeHg"),"THg"),
     selectInput("region","Region",c("Southern Hemisphere","Northern Hemisphere","Global"),"Southern Hemisphere"),
     selectInput("ecosystem","Ecosystem","All ecosystems"),
+    selectInput("fw","Food web (FW)","All food webs"),
     selectInput("continent","Continent","All continents"),
-    textInput("search","Search study, country, reference, DOI"),
+    textInput("search","Search study, reference, ecosystem or FW"),
     downloadButton("download","Download filtered CSV",class="btn-primary")
   ),
+  
   div(
     class = "alert alert-info",
     
@@ -170,19 +173,21 @@ ui <- page_sidebar(
       )
     )
   ),
-  layout_columns(
+    layout_columns(
     card(class = "metric-card", card_body(h6("Records"), h2(textOutput("n", inline = TRUE)))),
     card(class = "metric-card", card_body(h6("Mapped records"), h2(textOutput("mapped", inline = TRUE)))),
     card(class = "metric-card", card_body(h6("Median estimate"), h2(textOutput("median", inline = TRUE))))
   ),
   navset_card_tab(
     nav_panel("World map",leafletOutput("map",height=560)),
-    nav_panel("Records",DTOutput("records")),
+    nav_panel("Records",
+      p("TMS and TMF estimates are shown for both THg and MeHg. Blank cells indicate that a value is not available for that record."),
+      DTOutput("records")),
     nav_panel("References",DTOutput("refs")),
     nav_panel("Data dictionary",tableOutput("dictionary"))
   ),
   footer=div(style="padding:12px 0;color:#667085;",
-             "Mercury Trophic Magnification Database. Verify original publications, coordinates, units, and calculation methods before citation.")
+             "Mercury Trophic Magnification World Base. Verify original publications, coordinates, units, and calculation methods before citation.")
 )
 
 server <- function(input, output, session) {
@@ -254,9 +259,11 @@ server <- function(input, output, session) {
   })
   observe({
     d <- data()
-    ec <- sort(unique(d$Ecosystem[!is.na(d$Ecosystem)]))
-    co <- sort(unique(d$Continent[!is.na(d$Continent)]))
+    ec <- sort(unique(d$Ecosystem[!is.na(d$Ecosystem) & d$Ecosystem != ""]))
+    fw <- sort(unique(d$FW[!is.na(d$FW) & d$FW != ""]))
+    co <- sort(unique(d$Continent[!is.na(d$Continent) & d$Continent != ""]))
     updateSelectInput(session,"ecosystem",choices=c("All ecosystems",ec))
+    updateSelectInput(session,"fw",choices=c("All food webs",fw))
     updateSelectInput(session,"continent",choices=c("All continents",co))
   })
 
@@ -267,10 +274,11 @@ server <- function(input, output, session) {
     if(input$region=="Southern Hemisphere") d <- d %>% filter(!is.na(Latitude),Latitude<0)
     if(input$region=="Northern Hemisphere") d <- d %>% filter(!is.na(Latitude),Latitude>=0)
     if(!is.null(input$ecosystem) && input$ecosystem!="All ecosystems") d <- d %>% filter(Ecosystem==input$ecosystem)
+    if(!is.null(input$fw) && input$fw!="All food webs") d <- d %>% filter(FW==input$fw)
     if(!is.null(input$continent) && input$continent!="All continents") d <- d %>% filter(Continent==input$continent)
     q <- trimws(input$search %||% "")
     if(nzchar(q)) {
-      s <- paste(d$Study_ID,d$Country,d$Reference,d$DOI)
+      s <- paste(d$Study_ID,d$Reference,d$Ecosystem,d$FW,d$Continent)
       d <- d[grepl(q,s,ignore.case=TRUE),,drop=FALSE]
     }
     d
@@ -293,6 +301,7 @@ server <- function(input, output, session) {
     if(nrow(d)) {
       d$popup_text <- paste0("<b>",htmltools::htmlEscape(d$Study_ID),"</b><br>Country: ",htmltools::htmlEscape(d$Country),
         "<br>Continent: ",htmltools::htmlEscape(d$Continent),"<br>Ecosystem: ",htmltools::htmlEscape(d$Ecosystem),
+        ifelse(is.na(d$FW) | d$FW=="","","<br>FW: " %+% htmltools::htmlEscape(d$FW)),
         "<br>",input$metric," (",input$mercury,"): ",signif(d[[col]],4),
         "<br>Reference: ",htmltools::htmlEscape(d$Reference),
         ifelse(is.na(d$DOI)|d$DOI=="","","<br>DOI: " %+% htmltools::htmlEscape(d$DOI)))
@@ -303,18 +312,19 @@ server <- function(input, output, session) {
   })
 
   output$records <- renderDT({
-    d <- selected(); col <- paste0(input$metric,"_",input$mercury)
-    d <- d %>% mutate(Selected_metric=.data[[col]]) %>%
-      select(Record_ID,Study_ID,Country,Continent,Ecosystem,Latitude,Longitude,Selected_metric,Reference,DOI,Data_status)
+    d <- selected() %>%
+      select(Record_ID,Study_ID,Reference,Continent,Region,Bioregion,Ecosystem,FW,
+             Latitude,Longitude,TMS_THg,TMF_THg,TMS_MeHg,TMF_MeHg,
+             Data_status,Country,DOI)
     datatable(d,rownames=FALSE,filter="top",options=list(pageLength=15,scrollX=TRUE))
   })
   output$refs <- renderDT({
-    d <- selected() %>% distinct(Study_ID,Reference,DOI,Country,Ecosystem) %>% arrange(Reference)
+    d <- selected() %>% distinct(Study_ID,Reference,Continent,Region,Bioregion,Ecosystem,FW) %>% arrange(Reference)
     datatable(d,rownames=FALSE,filter="top",options=list(pageLength=15,scrollX=TRUE))
   })
   output$dictionary <- renderTable({
-    tibble(Field=c("Latitude","Longitude","TMS_THg / tms","TMS_MeHg / tmsMeHg","TMF_THg / tmf","TMF_MeHg / tmfMeHg","Ecosystem / FW","Continent / Continente","Reference / Authors","DOI / URL"),
-      Meaning=c("Decimal degrees; south negative","Decimal degrees; west negative","TMS for total mercury","TMS for methylmercury","TMF for total mercury","TMF for methylmercury","Ecosystem or food-web class","Continent","Citation or author/year","DOI or stable publication URL"))
+    tibble(Field=c("Latitude","Longitude","TMS_THg / tms","TMS_MeHg / tmsMeHg","TMF_THg / tmf","TMF_MeHg / tmfMeHg","Ecosystem","FW","Region","Bioregion","Continent / Continente","Reference / Authors","DOI / URL"),
+      Meaning=c("Decimal degrees; south negative","Decimal degrees; west negative","TMS for total mercury","TMS for methylmercury","TMF for total mercury","TMF for methylmercury","Ecosystem type","Food-web category provided in the source dataset","Geographic region","Biogeographic region","Continent","Citation or author/year","DOI or stable publication URL"))
   },striped=TRUE,bordered=TRUE,spacing="s")
 
   output$download <- downloadHandler(
