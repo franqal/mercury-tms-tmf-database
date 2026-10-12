@@ -121,9 +121,55 @@ ui <- page_sidebar(
     textInput("search","Search study, country, reference, DOI"),
     downloadButton("download","Download filtered CSV",class="btn-primary")
   ),
-  div(class="alert alert-info",
-      tags$b("Research database: "),
-      "Records are loaded from the included dataset. Please consult the cited publications and data dictionary when interpreting values."),
+  div(
+    class = "alert alert-info",
+    
+    tags$h4("About this resource"),
+    
+    tags$p(
+      "The Mercury Trophic Magnification World Base compiles published ",
+      "TMS and TMF estimates for total mercury (THg) and methylmercury ",
+      "(MeHg) in aquatic food webs."
+    ),
+    
+    tags$details(
+      tags$summary("Authors & affiliations"),
+      
+      tags$p(
+        tags$sup("1,2"),
+        " Francisco Quesada-Alvarado; ",
+        tags$sup("2,3"),
+        " Gustavo Chiang Rojas"
+      ),
+      
+      tags$p(
+        tags$sup("1"),
+        " Doctorado en Medicina de la Conservación, Universidad Andrés Bello"
+      ),
+      
+      tags$p(
+        tags$sup("2"),
+        " Centro IRIS"
+      ),
+      
+      tags$p(
+        tags$sup("3"),
+        " Universidad Mayor"
+      ),
+      
+      tags$p(
+        tags$a(
+          href = "mailto:franQAL@gmail.com",
+          "franQAL@gmail.com"
+        ),
+        " | ",
+        tags$a(
+          href = "mailto:gustavo.chiang@umayor.cl",
+          "gustavo.chiang@umayor.cl"
+        )
+      )
+    )
+  ),
   layout_columns(
     card(class = "metric-card", card_body(h6("Records"), h2(textOutput("n", inline = TRUE)))),
     card(class = "metric-card", card_body(h6("Mapped records"), h2(textOutput("mapped", inline = TRUE)))),
